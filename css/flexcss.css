@@ -1,0 +1,44 @@
+.container{
+    background-color: rgb(151, 148, 155);
+    width: 500px;
+}
+
+
+.form-row{
+    padding: 10px 0;
+    display: flex;
+}
+
+.form-row label{
+    padding-right: 10px;
+}
+.form-row input{
+    flex: 1;
+}
+
+.column-layout{
+    max-width: 1300px;
+    background-color: rgb(180, 67, 67);
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+}
+.main-column{
+    background-color: burlywood;
+    flex: 3;
+    order: 2;
+    padding: 50px;
+
+}
+.sidebar-one{
+    background-color: cornflowerblue;
+    flex: 1;
+    order: 1;
+    
+}
+.sidebar-two{
+    background-color: darkkhaki;
+    flex: 1;
+    order: 3;
+}

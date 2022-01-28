@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="codepen.css">
+
+<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+
+
+
+<link rel="stylesheet" href="css/updatecss.css" type="text/css">
+
+
+    <title>Updates Home</title>
+</head>
+<body>
+    
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid" id="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="submitupdate.php"> Submit Updates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="viewupdates.php"> View Previous Updates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="viewupdates.php"> Latest Update: PENDING</a>
+          </li>    
+        </ul>
+        <div class="d-flex align-items-center">
+          <ul class="navbar-nav">
+          <li class="nav-item"><a href="#" class="nav-link"><?php echo $firstName." ".$lastName; ?></a></li>
+        </ul>          
+        <a class="btn btn-primary" href="logout.php" role="button">Logout</a>
+  
+  
+        </div>
+   
+  
+      </div>
+    </div>
+  </nav>
+
+<div class="hero">
+<div class="hero-inner">
+    <h3>Attention Registrants!</h3>
+    <p>1. The purpose of this website is to allow the registrant to submit any required information that needs to be 
+      up to date in your file with the local law-enforcement agency where you reside. <br><br>2.
+      Submit updates that do not require you to present yourself at our office. Once you submit an update
+    or various updates, they will NOT be automatically added to our system. Once our staff completes updating your file, you will
+    be notified through email and your update status will change from Pending to Completed.</p><br><br>
+    <p>3.To start an update, click on the Submit Updates on the menu above. Once you have entered all the updates, click on Submit</p>
+      <a href="#" class="button-update">Submit New Updates</a>
+</div>
+</div>
+
+<div class="features">
+  <div class="features-inner">
+    <div class="featured-item">
+      <h3>Cool Feautre #1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum enim dolor unde sequi, at dicta nesciunt, eveniet doloremque atque eos odit sed perferendis temporibus autem! Quam molestiae delectus quis neque!</p>
+    </div>
+    <div class="featured-item">
+      <h3>Cool Feautre #2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum enim dolor unde sequi, at dicta nesciunt, eveniet doloremque atque eos odit sed perferendis temporibus autem! Quam molestiae delectus quis neque!</p>
+    </div>
+    <div class="featured-item">
+      <h3>Cool Feautre #4</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum enim dolor unde sequi, at dicta nesciunt, eveniet doloremque atque eos odit sed perferendis temporibus autem! Quam molestiae delectus quis neque!</p>
+    </div>
+  </div>
+
+  <div class="footer">
+      <p>&copy; 2020 Beaner Tech</p>
+  </div>
+</div>
+
+<script src="css/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

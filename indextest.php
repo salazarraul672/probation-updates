@@ -1,0 +1,3 @@
+<phpinfo>
+    <html>
+        </html>
